@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telescopio Simulado</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+</head>
+<body>
+    <div class="telescope">
+        <div class="ocular">
+            <img id="celestial-object" src="galaxia1.webp" alt="Objeto Celeste">
+        </div>
+        <div class="message" id="message">
+            <p>El acceso a la visualización del telescopio está actualmente deshabilitado. ⏳ Activaremos esta función en el momento adecuado de cada observación. ¡Gracias por tu comprensión! 😉</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <noscript>
+        <style>
+            .ocular, .controls {
+                display: none;
+            }
+            .message {
+                display: block;
+            }
+        </style>
+    </noscript>
+</body>
+</html>
